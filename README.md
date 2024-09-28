@@ -22,5 +22,5 @@ Bu komutlarla projeyi başlattıktan sonra tarayıcınızda `http://localhost:30
 
 ## Ekran Görüntüsü
 
-![Proje Ekran Görüntüsü](src/assets/web_image.png)
+![Proje Ekran Görüntüsü](public/web_image.png)
 
