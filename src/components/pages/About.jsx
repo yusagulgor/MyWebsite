@@ -7,7 +7,6 @@ const About = () => {
   return (
     <div className='h-screen flex justify-center items-center' style={{ backgroundColor: bgColor }}>
       <div className='ml-10 w-8/10 flex flex-row justify-between'>
-        {/* Sol taraftaki div */}
         <div className='w-3/6 text-white text-regular-400 text-2xl p-6 mt-5 ml-10 rounded-lg'>
           <span>Hi, I'm </span><span style={{ color:'#EBB248' }}>Yüşa</span>
           <div className='mt-16'>
@@ -22,13 +21,12 @@ const About = () => {
             <a href="yusagulgor@gmail.com" style={{color:'#EBB248'}}>yusagulgor@gmail.com</a> adreslerime bakabilir veya iletişime geçebilirsiniz.</p>
           </div> 
         </div>
-        
-        {/* Sağ taraftaki foto */}
-        <div className='flex rounded-lg justify-end mr-40'> {/* Sağa doğru kaydırma */}
+
+        <div className='flex rounded-lg justify-end mr-40'>
           <img
             src={mepoto}
             alt=''
-            style={{ borderRadius: 50, inlineSize: 500 }} // Stil düzenlemesi
+            style={{ borderRadius: 50, inlineSize: 500 }} 
             className='shadow-lg'
           />
         </div>
